@@ -3,7 +3,7 @@ import { colors } from './colors';
 
 const Page = styled.div`
   margin: auto;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-top: 10px;
   color: ${colors.text};
   font-family: 'Open Sans', sans-serif;

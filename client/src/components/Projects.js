@@ -14,16 +14,36 @@ const Projects = () => {
       <FaIconBanner color={colors.blue} faIcon='code' />
 
       <Card>
+        <h3>blackhillsweaving.com</h3>
+        <p>
+          Business website for Black Hills Weaving by Mary LaHood. I implemented a 
+          "contact me" feature using 
+          <strong> nodemailer </strong>
+          and 
+          <strong> Express</strong>
+          , while the client is rendered using
+          <strong> React</strong>
+          . By I completing this website, I have:
+        </p>
+        <ul>
+          <li>built a fullstack website using <strong>React</strong> and <strong>Express</strong></li>
+          <li>gained experience developing to the needs of a <strong>product owner</strong></li>
+          <li>become familiar with the services provided by <strong>Heroku</strong> and <strong>CloudFlare</strong></li>
+        </ul>
+        <p>
+          <Link to='http://www.blackhillsweaving.com'>www.blackhillsweaving.com</Link>
+        </p>
+      </Card>
+
+      <Card>
         <h3>murraylahoodburns.com</h3>
         <p>
-          A rebuild of my 
-          <Link to='https://github.com/MurrayLaHood-Burns/personal-website'> original website</Link>
-          , built entirely in 
+          My personal website, built entirely in 
           <strong> JavaScript </strong>
-          using 
-          <Link to='https://facebook.github.io/react/'> React</Link>
-          . Using React may be overkill for the contents of this website, but I enjoyed working with
-          it. By writing my website in React, I have gained a greater understanding of: 
+          using
+          <strong> React</strong>
+          . By writing my website in React, I have gained a greater understanding of:
+
         </p>
         <ul>
           <li>use of <strong>functional</strong> and <strong>class components</strong></li>
@@ -31,7 +51,7 @@ const Projects = () => {
           <li>using <strong>nginx</strong> as a <strong>reverse proxy server</strong></li>
         </ul>
         <p>
-          <Link to='https://github.com/MurrayLaHood-Burns/react-personal-website'>GitHub</Link>
+          <Link to='https://github.com/MurrayLaHood-Burns/murraylahoodburns.com'>GitHub</Link>
         </p>
       </Card>
 
