@@ -1,0 +1,26 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-headroom": "^2.1.6",
+    "react-media": "^1.6.1",
+    "react-motion-drawer": "^2.1.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.12",
+    "react-sidebar": "^2.3.2",
+    "react-transition-group": "^2.2.0",
+    "react-twitter-widgets": "^1.5.1",
+    "styled-components": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "release": "serve -s -p 6000 build"
+  }
+}
