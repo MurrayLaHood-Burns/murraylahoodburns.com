@@ -15,6 +15,10 @@ class NavTop extends Component {
     this.setState({open: true});
   }
 
+  onDrawerClick() {
+    this.setState({open: false});
+  }
+
   render() {
 
     const {
@@ -35,7 +39,9 @@ class NavTop extends Component {
           right
           onChange={open => this.setState({ open: open })}
         >
-          {children}
+          <div onClick={this.onDrawerClick.bind(this)}>
+            {children}
+          </div>
         </Drawer>
         <Headroom>
           <Bar 
