@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { 
   Page,
   Card,
@@ -12,6 +13,15 @@ import {
 const Home = () => {
   return (
     <Page>
+      <Helmet>
+        <meta 
+          name='description' 
+          content='Murray is a software engineer from the Black 
+          Hills of South Dakota, specializing in web app development.
+          He graduated cum laude from SDSM&T in May 2017.' />
+        <title>Murray LaHood-Burns | Black Hills Software Engineer | Webapp Developer</title>
+      </Helmet>
+
       <FaIconBanner color={colors.blue} faIcon='home'/>
       <Card>
         <h3>Murray LaHood-Burns</h3>

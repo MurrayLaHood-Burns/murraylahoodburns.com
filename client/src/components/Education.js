@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import {
   Page,
   Card,
@@ -11,6 +12,14 @@ import {
 const Education = () => {
   return (
     <Page>
+      <Helmet>
+        <title>Education</title>
+        <meta 
+          name='description' 
+          content='B.S. Computer Science cum laude from South Dakota School
+          of Mines & Technology, 2017. Particpated in entrepreneurial activities.'
+        />
+      </Helmet>
       <FaIconBanner color={colors.blue} faIcon='graduation-cap' />
       <Card>
         <h3>B.S. Computer Science</h3>

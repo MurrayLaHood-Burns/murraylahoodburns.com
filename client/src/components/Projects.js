@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import {
   Page,
   Card,
@@ -11,6 +12,11 @@ import {
 const Projects = () => {
   return (
     <Page>
+      <Helmet>
+        <title>Projects</title>
+        <meta name='description' content='Details on projects from my work experience,
+          entrepreneurial projects, and personal interest in fullstack javascript web development.' />
+      </Helmet>
       <FaIconBanner color={colors.blue} faIcon='code' />
 
       <Card>

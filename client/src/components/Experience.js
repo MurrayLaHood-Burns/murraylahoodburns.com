@@ -1,9 +1,16 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Page, Card, FaIconBanner, Link, colors } from './common';
 
 const Experience = () => {
   return (
     <Page>
+      <Helmet>
+        <title>Work Experience</title>
+        <meta name='description' content='One year experience as a .net software
+          engineer intern at Innovative Systems LLC, developing Windows and 
+          cross-platform mobile applications.' />
+      </Helmet>
       <FaIconBanner color={colors.blue} faIcon='briefcase' />
       <Card>
         <h3>Software Engineer Intern</h3>
