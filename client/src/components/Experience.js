@@ -51,6 +51,39 @@ const Experience = () => {
           <strong> senior design project</strong>
           .
         </p>
+        <p>
+          <Link to='http://www.innovsys.com/innovsys/'>www.innovsys.com</Link>
+        </p>
+      </Card>
+      <Card>
+        <h3>Radon Mitigation Technician</h3>
+        <p>Earthorizons Inc - Black Hawk, SD 
+          <br/>
+          <em>May 2011 - Present</em>
+        </p>
+
+        <p>
+          I started working for my father's 
+          <strong> radon mitigation </strong>
+          and
+          <strong> earthwork </strong>
+          business, Earthorizons, 
+          halfway through high school. My work mainly involved assisting in the installation
+          of radon mitigation systems, but I also worked on
+          <strong> water & sewer</strong>
+          , 
+          <strong> construction</strong>
+          , <strong>land reclamation</strong>
+          , and 
+          <strong> excavation </strong>
+          projects. In addition, I have gained 
+          <strong> forestry </strong>
+          experience
+          working on the family tree farm.
+        </p>
+        <p>
+          <Link to='http://www.earthorizons.com'>www.earthorizons.com</Link>
+        </p>
       </Card>
     </Page>
   );
