@@ -20,6 +20,33 @@ const Projects = () => {
       <FaIconBanner color={colors.blue} faIcon='code' />
 
       <Card>
+        <h3>earthorizons.com</h3>
+        <p>
+          Business website for Earthorizons Inc, a radon mitigation and earthwork company. I am especially proud of
+          the
+          <strong> modern navigation </strong>
+          bar I implemented using 
+          <strong> react-headroom </strong>
+          and
+          <strong> react-motion-drawer</strong>
+          . The website uses a
+          <strong> React </strong>
+          frontend and a
+          <strong> Express </strong>
+          server for the contact us feature.
+          By completing this website, I have:
+        </p>
+        <ul>
+          <li><strong>rapidly released</strong> a website after only two days of development</li>
+          <li>increased my skill with <strong>React</strong> and <strong>Express</strong></li>
+          <li>created another <strong>reusable component</strong> to improve development for other sites</li>
+        </ul>
+        <p>
+          <Link to='http://www.earthorizons.com'>www.earthorizons.com</Link>
+        </p>
+      </Card>
+
+      <Card>
         <h3>blackhillsweaving.com</h3>
         <p>
           Business website for Black Hills Weaving by Mary LaHood. I implemented a 
@@ -29,7 +56,7 @@ const Projects = () => {
           <strong> Express</strong>
           , while the client is rendered using
           <strong> React</strong>
-          . By I completing this website, I have:
+          . By completing this website, I have:
         </p>
         <ul>
           <li>built a fullstack website using <strong>React</strong> and <strong>Express</strong></li>
